@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+
+# Renders y archivos de trabajo: pesan mucho y no van al repositorio
+out
+data
+
+# Grabaciones y recursos de cada proyecto (se quedan en tu ordenador)
+public/recursos
+public/grabaciones
+
+# Entorno de Python de las herramientas de vídeo (Whisper, OpenCV, ffmpeg)
+.venv
+__pycache__
